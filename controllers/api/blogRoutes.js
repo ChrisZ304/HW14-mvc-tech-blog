@@ -1,4 +1,4 @@
-const Blog = require('../../models/blog');
+const Blog = require('../../models/Blog');
 //blog_index, blog_details, blog_create_get, blog_create_post, blog_create_delete
 
 

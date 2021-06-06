@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "*",
+    "dotenv": "*",
     "express": "*",
-    "sequelize": "*",
+    "express-handlebars": "^5.3.2",
+    "express-session": "^1.17.2",
+    "inquirer": "*",
     "mysql2": "*",
-    "dotenv": "*"
+    "sequelize": "*"
   }
 }

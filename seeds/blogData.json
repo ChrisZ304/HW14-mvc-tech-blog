@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Music Near Me",
+    "description": "A blog that lists concerts in your local area, with a brief blurb about the performer(s)."
+
+    
+  },
+  {
+    "name": "The Ultimate Tech Quiz",
+    "description": "A blog that presents users with 5 new technical questions each day in subjects such as programming, cybersecurity, database architecture, and more. The second half then gives answers and explanations in regard to each. !"
+  },
+  {
+    "name": "Game on",
+    "description": "A blog that lists and provides links to games for Windows and macOS for users to compete against friends, family, or the computer through a series of increasingly challenging levels of strategy, trivia, word-games, riddles,and more."
+  }
+]
