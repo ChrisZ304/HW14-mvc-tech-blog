@@ -43,4 +43,8 @@ router.get('/:id'), (req, res) => {
     })
 
 }
+
+router.delete('/', 'delete', (req, res) => {
+  
+})
 module.exports = router
