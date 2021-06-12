@@ -3,7 +3,7 @@
 const router = require('express').Router();
 const sequelize = require('../config/connection');
 // the models
-const { Post, User } = require('../models');
+const { Post, User, Comment } = require('../models');
 // the authorization middleware to redirect unauthenticated users to the login page
 const withAuth = require('../utils/auth')
 
@@ -21,7 +21,14 @@ router.get('/', withAuth, (req, res) => {
         'title',
         'created_at',
       ],
-      include: [
+      include: [{
+        model: Comment,
+        attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+        include: {
+            model: User,
+            attributes: ['username']
+        }
+    },
         {
           model: User,
           attributes: ['username']
